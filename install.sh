@@ -26,7 +26,7 @@ main() {
   if [[ -z "$src" ]]; then
     DOWNLOAD="$(mktemp -d)"
     trap 'rm -rf "$DOWNLOAD"' EXIT
-    echo "Downloading $REPO…"
+    echo "Downloading ${REPO}..."
     curl -fsSL "https://github.com/$REPO/archive/refs/heads/main.tar.gz" |
       tar -xz -C "$DOWNLOAD" --strip-components 1
     src="$DOWNLOAD"
