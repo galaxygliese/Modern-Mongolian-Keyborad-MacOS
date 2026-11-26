@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.galaxygliese.keyboardlayout.modernmongolian</string>
+	<key>CFBundleName</key>
+	<string>Modern Mongolian</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>KLInfo_Mongolian Modern Cyrillic</key>
+	<dict>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>com.galaxygliese.keyboardlayout.modernmongolian.keylayout.MongolianModernCyrillic</string>
+		<key>TISIntendedLanguage</key>
+		<string>mn-Cyrl</string>
+	</dict>
+	<key>KLInfo_Mongolian Traditional Script</key>
+	<dict>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>com.galaxygliese.keyboardlayout.modernmongolian.keylayout.MongolianTraditionalScript</string>
+		<key>TISIntendedLanguage</key>
+		<string>mn-Mong</string>
+	</dict>
+</dict>
+</plist>
