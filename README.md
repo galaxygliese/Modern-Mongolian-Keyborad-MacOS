@@ -1,6 +1,6 @@
 # Modern Mongolian Keyboard for macOS
 
-Built for Mongolian Mac users. Author: **Sodoo**.
+Амархан суулгадаг keyboard :+1:
 
 Two keyboards for macOS:
 
