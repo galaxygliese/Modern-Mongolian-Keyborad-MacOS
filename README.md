@@ -121,6 +121,8 @@ scripts/build-pkg.sh              # build dist/ModernMongolian-<version>.pkg and
 
 `verify.py` reads each installed keyboard back through macOS (`UCKeyTranslate`). A passing run therefore also shows that macOS accepted the layout files. CI fails when the generated files are out of date with `layouts.py`. To publish the `.pkg` and `.zip` to Releases, push a `v*` tag.
 
-## Author
+## Author and license
 
 Copyright © 2026 Sodoo. Built for Mongolian Mac users.
+
+Released under the [MIT License](LICENSE).
