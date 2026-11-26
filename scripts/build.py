@@ -14,6 +14,7 @@ from layouts import INVISIBLE_LABELS, LAYOUTS
 
 VERSION = "1.0.0"
 BUNDLE_ID = "com.galaxygliese.keyboardlayout.modernmongolian"
+COPYRIGHT = "Copyright © 2026 Sodoo. Built for Mongolian Mac users."
 ROOT = Path(__file__).resolve().parent.parent
 BUNDLE = ROOT / "ModernMongolian.bundle"
 DOCS = ROOT / "docs"
@@ -152,6 +153,7 @@ def info_plist() -> bytes:
         "CFBundleVersion": VERSION,
         "CFBundleShortVersionString": VERSION,
         "CFBundleDevelopmentRegion": "en",
+        "NSHumanReadableCopyright": COPYRIGHT,
     }
     for layout in LAYOUTS:
         plist[f"KLInfo_{layout['name']}"] = {

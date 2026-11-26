@@ -1,5 +1,7 @@
 # Modern Mongolian Keyboard for macOS
 
+Built for Mongolian Mac users. Author: **Sodoo**.
+
 Two keyboards for macOS:
 
 - **Mongolian – Modern Cyrillic** (`Мн`): the standard letter positions you already know, but digits without Shift, and Option gives you English.
@@ -118,3 +120,7 @@ scripts/build-pkg.sh              # build dist/ModernMongolian-<version>.pkg and
 ```
 
 `verify.py` reads each installed keyboard back through macOS (`UCKeyTranslate`). A passing run therefore also shows that macOS accepted the layout files. CI fails when the generated files are out of date with `layouts.py`. To publish the `.pkg` and `.zip` to Releases, push a `v*` tag.
+
+## Author
+
+Copyright © 2026 Sodoo. Built for Mongolian Mac users.
