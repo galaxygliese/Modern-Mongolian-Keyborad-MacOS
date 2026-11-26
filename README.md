@@ -1,3 +1,5 @@
+![Орчин үеийн keyboard — Modern Mongolian Keyboard for macOS](docs/banner.png)
+
 # Modern Mongolian Keyboard for macOS
 
 Амархан суулгадаг keyboard :+1:

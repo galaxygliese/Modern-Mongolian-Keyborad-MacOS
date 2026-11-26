@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420">
+  <!-- Source of docs/banner.png. Colours: Mongolian flag blue and red, Soyombo gold. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06142e"/>
+      <stop offset="0.55" stop-color="#0b2a5c"/>
+      <stop offset="1" stop-color="#0d3b7a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.45">
+      <stop offset="0" stop-color="#2f7de1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2f7de1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a5f"/>
+      <stop offset="0.5" stop-color="#ff9f43"/>
+      <stop offset="1" stop-color="#ffd23f"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="capRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5414a"/>
+      <stop offset="1" stop-color="#a3161f"/>
+    </linearGradient>
+    <linearGradient id="capGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd84d"/>
+      <stop offset="1" stop-color="#e0a800"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000814" flood-opacity="0.55"/>
+    </filter>
+    <!-- Alkhan khee: the endless hook pattern of Mongolian ornament. -->
+    <pattern id="khee" width="28" height="22" patternUnits="userSpaceOnUse">
+      <path d="M0 18 H28 M5 18 V4 H21 V13 H11 V8 H16" fill="none" stroke="#ffd23f" stroke-width="2.4"
+            stroke-linecap="square"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#sky)"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+  <rect x="0" y="392" width="1280" height="22" fill="url(#khee)" opacity="0.45"/>
+  <rect x="0" y="6" width="1280" height="22" fill="url(#khee)" opacity="0.18"/>
+
+  <!-- Vertical script column: ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ, drawn rotated so it stands upright. -->
+  <line x1="112" y1="70" x2="112" y2="350" stroke="#ffd23f" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="74" y="74" transform="rotate(90 74 74)" font-family="Noto Sans Mongolian, Mongolian Baiti, sans-serif"
+        font-size="38" fill="#ffd23f">ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ</text>
+
+  <!-- Title -->
+  <g font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif">
+    <text x="150" y="104" font-size="17" font-weight="600" letter-spacing="4" fill="#ffd23f">MODERN MONGOLIAN KEYBOARD · macOS</text>
+    <text x="146" y="196" font-size="86" font-weight="800" fill="#ffffff">Орчин үеийн</text>
+    <text x="146" y="286" font-size="86" font-weight="800" fill="url(#word)">keyboard</text>
+    <text x="150" y="336" font-size="22" fill="#c9d6ee">Кирилл ба монгол бичгийн keyboard · нэг командаар суулгана</text>
+  </g>
+
+  <!-- Keycaps -->
+  <g transform="translate(900 205) rotate(-9)" filter="url(#shadow)"
+     font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-weight="700"
+     text-anchor="middle" dominant-baseline="central">
+    <g fill="#ffffff">
+      <rect x="-200" y="-150" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="-156" y="-106" font-size="40">Ф</text>
+      <rect x="-100" y="-150" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="-56" y="-106" font-size="40">Ц</text>
+      <rect x="0" y="-150" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="44" y="-106" font-size="40">У</text>
+      <rect x="100" y="-150" width="88" height="88" rx="16" fill="url(#capGold)"/>
+      <text x="144" y="-106" font-size="42" fill="#3a2a00">₮</text>
+
+      <rect x="-170" y="-50" width="88" height="88" rx="16" fill="url(#capRed)"/>
+      <text x="-126" y="-6" font-size="44" font-family="Noto Sans Mongolian, Mongolian Baiti, sans-serif"
+            font-weight="400" transform="rotate(90 -126 -6)">ᠮ</text>
+      <rect x="-70" y="-50" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="-26" y="-6" font-size="40">Ө</text>
+      <rect x="30" y="-50" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="74" y="-6" font-size="40">Ү</text>
+      <rect x="130" y="-50" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="174" y="-6" font-size="40">Н</text>
+
+      <rect x="-140" y="50" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="-96" y="94" font-size="40">Я</text>
+      <rect x="-40" y="50" width="88" height="88" rx="16" fill="url(#cap)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="4" y="94" font-size="44" font-family="Noto Sans Mongolian, Mongolian Baiti, sans-serif"
+            font-weight="400" transform="rotate(90 4 94)">ᠣ</text>
+      <rect x="60" y="50" width="188" height="88" rx="16" fill="url(#cap)" stroke="#ffd23f" stroke-opacity="0.6"/>
+      <text x="154" y="94" font-size="20" letter-spacing="2" fill="#ffd23f">⌥ = ENGLISH</text>
+    </g>
+  </g>
+</svg>
